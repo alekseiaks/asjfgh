@@ -3,4 +3,4 @@ hh = seconds // 3600
 mm = (seconds - hh * 3600) // 60
 ss = seconds - mm * 60 - hh * 3600
 
-print(f"{hh}:{mm}:{ss}")
+print(f"{hh:02d}:{mm:02d}:{ss:02d}")
